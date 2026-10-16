@@ -1,0 +1,12 @@
+name: Dilawar Greeting
+description: Return a greeting and report triggering actor
+inputs:
+  name:
+    description: Person to greet
+    required: true
+outputs:
+  message:
+    description: Generated greeting
+runs:
+  using: node24
+  main: dist/index.js
